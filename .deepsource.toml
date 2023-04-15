@@ -1,0 +1,23 @@
+version = 1
+
+[[analyzers]]
+name = "shell"
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "ember",
+    "angularjs",
+    "angular",
+    "meteor",
+    "vue",
+    "react"
+  ]
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/Ame1318/azure-sdk-for-go"
